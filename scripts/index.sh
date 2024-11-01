@@ -6,7 +6,7 @@ sudo pamac update && sudo pamac upgrade
 
 # Install packages
 echo 'Installing all packages'
-sudo pamac install nano neofetch docker docker-compose yay firefox code bitwarden wine virtualbox ufw gufw git htop flameshot inkscape libreoffice-still-pt-br zsh zsh-autosuggestions zsh-completions appimagelauncher filezilla spotify-launcher reaper httpie curl flatpak gimp
+sudo pamac install nano neofetch docker docker-compose yay firefox code bitwarden wine virtualbox ufw gufw git htop flameshot inkscape libreoffice-still-pt-br zsh zsh-autosuggestions zsh-completions appimagelauncher filezilla reaper httpie curl flatpak gimp
 echo 'Packages installation finished'
 
 # Add flathub on flatpak
@@ -16,7 +16,6 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 # Install flatpak packages
 echo 'Installing Flatpak Apps'
 sudo flatpak install Redis Spotify Insomnia AnyDesk WinBox
-echo 'Flatpak Apps installation finished'
 
 # Install nvm
 echo 'Installing node version manager (Nvm)'
