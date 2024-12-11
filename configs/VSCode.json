@@ -1,0 +1,48 @@
+{
+	"editor.fontWeight": 600,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontSize": 14,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 1.5,
+	"editor.minimap.enabled": false,
+	"editor.semanticHighlighting.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+
+	"workbench.editor.labelFormat": "short",
+	"workbench.colorTheme": "Bearded Theme Arc",
+	"workbench.tree.indent": 12,
+	"workbench.statusBar.visible": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "none",
+
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmPasteNative": false,
+
+	"terminal.external.linuxExec": "zsh",
+
+	"breadcrumbs.enabled": false,
+
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"cSpell.userWords": ["cnpj", "Guimarães", "usecase"],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"prettier.useTabs": true,
+	"prettier.enable": true,
+	"prettier.singleQuote": true,
+	"prettier.semi": false,
+	"prettier.trailingComma": "es5",
+	"prettier.tabWidth": 2,
+	"prettier.printWidth": 85,
+	"git.openRepositoryInParentFolders": "never",
+	"cSpell.language": "en,pt,pt-BR"
+}
